@@ -7,7 +7,7 @@ import random
 def endgame():
     print('''
     Vous venez de détruire le serveur d'ARASAKA, les répercutions vont être terribles autant pour la mégacorporation que pour les habitants de la ville.
-    Des centaines de milliers de personnes vont désormais être licenciées à cause de leur incompétence.
+    Des centaines de milliers de personnes vont désormais être licenciées à cause de leur incompétence.    
     ARASAKA viens de recevoir l'une des attaques les plus importantes de sa création, la destruction totale de toute les données stockées sur le serveur central.
     Les conséquences de cette destruction se traduisent en une perte de plus d'une centaine de trilliards de crédits. Même pour ARASAKA cela représente un important problème.
     ============================================================================
