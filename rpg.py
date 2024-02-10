@@ -367,7 +367,7 @@ def prog_prot():
        - Minimisation des risques de rejet.
        - Durabilité accrue.
 
-    3. **IA IntégréE**
+    3. **IA Intégrée**
        - PErsonnalisation continuE dE l'ExpériEncE utilisatEur.
        - Capacité d'apprEntissagE.
 
@@ -689,7 +689,7 @@ def dossierTMA():
     elif docu == "3":
         Projet()
     else:
-        print("ACCES REFUSE")
+        print("ACCES REFUSER")
 
     dossierTMA()
 
@@ -702,11 +702,11 @@ def dossierIUI():
     choice = input("[EVA] Faites votre choix: ")
     print("============================================================================")
     if choice == "1":
-        agent01 = Opponent(name="Agent de sécurité Nv1", health=3, difficulty=1)
+        agent01 = Opponent(name="Agent de sécurité Niv1", health=3, difficulty=1)
         combat_sur_ur = CombatSystem(player, agent01, file_contents_function=surveillance_urbaine, file_station_point=dossierIUI)
         combat_sur_ur.initiate_combat()
     elif choice == "2":
-        agent02 = Opponent(name="Agent de sécurité Nv1", health=4, difficulty=1)
+        agent02 = Opponent(name="Agent de sécurité Niv1", health=4, difficulty=1)
         combat_gest_trans = CombatSystem(player, agent02, file_contents_function=gestion_transport, file_station_point=dossierIUI)
         combat_gest_trans.initiate_combat()
     elif choice == "3":
@@ -724,11 +724,11 @@ def dossierRED():
     docume = input("[EVA] Faites votre choix: ")
     print("============================================================================")
     if docume == "1":
-        agent03 = Opponent(name="Agent de sécurité Nv1", health=5, difficulty=2)
+        agent03 = Opponent(name="Agent de sécurité Niv1", health=5, difficulty=2)
         combat_tech_prop = CombatSystem(player, agent03, file_contents_function=technologie_propre, file_station_point=dossierRED)
         combat_tech_prop.initiate_combat()
     elif docume == "2":
-        agent04 = Opponent(name="Agent de sécurité Nv1", health=5, difficulty=2)
+        agent04 = Opponent(name="Agent de sécurité Niv1", health=5, difficulty=2)
         combat_strat_ener = CombatSystem(player, agent04, file_contents_function=strat_energie, file_station_point=dossierRED)
         combat_strat_ener.initiate_combat()
     elif docume == "3":
@@ -746,11 +746,11 @@ def dossierEx_Gen():
     document = input("Faites votre choix: ")
     print("============================================================================")
     if document == "1":
-        agent05 = Opponent(name="Agent de sécurité Nv1", health=5, difficulty=3)
+        agent05 = Opponent(name="Agent de sécurité Niv1", health=5, difficulty=3)
         combat_pro_chi = CombatSystem(player, agent05, file_contents_function=projet_chimere, file_station_point=dossierEx_Gen)
         combat_pro_chi.initiate_combat()
     elif document == "2":
-        agent06 = Opponent(name="Agent de sécurité Nv1", health=5, difficulty=3)
+        agent06 = Opponent(name="Agent de sécurité Niv1", health=5, difficulty=3)
         combat_hetic = CombatSystem(player, agent06, file_contents_function=ethique, file_station_point=dossierEx_Gen)
         combat_hetic.initiate_combat()
     elif document == "3":
@@ -768,11 +768,11 @@ def dossierOGE():
     OGE = input("[EVA] Faites votre choix: ")
     print("============================================================================")
     if OGE == "1":
-        agent07 = Opponent(name="Agent de sécurité Nv1", health=5, difficulty=4)
+        agent07 = Opponent(name="Agent de sécurité Niv1", health=5, difficulty=4)
         combat_sur_ur = CombatSystem(player, agent07, file_contents_function=concurences, file_station_point=dossierOGE)
         combat_sur_ur.initiate_combat()
     elif OGE == "2":
-        agent08 = Opponent(name="Agent de sécurité Nv1", health=5, difficulty=4)
+        agent08 = Opponent(name="Agent de sécurité Niv1", health=5, difficulty=4)
         combat_sur_ur = CombatSystem(player, agent08, file_contents_function=info_marches, file_station_point=dossierOGE)
         combat_sur_ur.initiate_combat()
     elif OGE == "3":
