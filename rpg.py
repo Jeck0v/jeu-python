@@ -3,7 +3,7 @@ import sys
 import random
 
 
-# Groupe: Maxime Bidan, Alexis Gontier, Arnaud Fischer
+# Groupe: Maxime B, Alexis G, Arnaud F
 def endgame():
     print('''
     Vous venez de détruire le serveur d'ARASAKA, les répercutions vont être terribles autant pour la mégacorporation que pour les habitants de la ville.
@@ -543,13 +543,13 @@ def main_menu():
 def credit():
     print('''
     ===========================================================================
-    Rédaction: Maxime Bidan & Arnaud Fischer
+    Rédaction: Maxime B & Arnaud F
     ===========================================================================
-    Testeur: Alexis Gontier
+    Testeur: Alexis G
     ===========================================================================
-    Développement du projet: Maxime Bidan, Arnaud Fischer, Alexis Gontier
+    Développement du projet: Maxime B, Arnaud F, Alexis G
     ===========================================================================
-    Relectrice: Constance Gontier
+    Relectrice: Constance G
     ===========================================================================
     Nous vous remercions au nom de tout notre groupe d'avoir joué à notre jeu
     Amusez vous bien ci ce n'est pas déjà fait !
